@@ -81,11 +81,11 @@ ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
 app = ctk.CTk()
-app.title("Amazon Data Cleaner Pro v2.2")
+app.title("Data Cleaner Pro")
 app.geometry("600x620")
 
 # العنوان
-title_label = ctk.CTkLabel(app, text="نظام التحقق وتطهير البيانات", font=("Arial", 24, "bold"))
+title_label = ctk.CTkLabel(app, text="نظام تنظيف البيانات", font=("Arial", 24, "bold"))
 title_label.pack(pady=30)
 
 # اختيار الملف
@@ -123,4 +123,5 @@ start_btn = ctk.CTkButton(app, text="بدء التنظيف الاحترافي", 
 start_btn.pack(pady=40)
 
 app.mainloop()
+
 
